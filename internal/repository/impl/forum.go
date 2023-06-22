@@ -7,6 +7,7 @@ import (
 
 	"github.com/ivan12093/VK-DB-PROJECT/internal/models"
 	"github.com/ivan12093/VK-DB-PROJECT/internal/utils/queries"
+	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/pgxpool"
 )
 

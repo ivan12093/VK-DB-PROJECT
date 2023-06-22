@@ -5,6 +5,7 @@ import (
 	"github.com/ivan12093/VK-DB-PROJECT/internal/repository"
 	"github.com/ivan12093/VK-DB-PROJECT/internal/utils/errors"
 	"github.com/jackc/pgconn"
+	"github.com/jackc/pgx/v4"
 )
 
 type ForumUseCase struct {
